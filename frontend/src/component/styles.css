@@ -1,0 +1,35 @@
+/* Custom styles for the previous button */
+.carousel-control-prev {
+    color: black;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: none; /* Remove default arrow icon */
+  }
+
+  /* Custom arrow icon for the previous button */
+  .carousel-control-prev-icon::before {
+    content: '<'; /* Use a simple character for the arrow */
+    font-size: 2rem;
+    color: black;
+  }
+
+  /* Custom styles for the next button */
+  .carousel-control-next {
+    color: black;
+  }
+
+  .carousel-control-next-icon {
+    background-image: none; /* Remove default arrow icon */
+  }
+
+  /* Custom arrow icon for the next button */
+  .carousel-control-next-icon::before {
+    content: '>'; /* Use a simple character for the arrow */
+    font-size: 2rem;
+    color: black;
+  }
+  .custom-image-size {
+    width: 100px;
+    height: 100px;
+}
